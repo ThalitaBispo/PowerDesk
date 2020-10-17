@@ -1,0 +1,185 @@
+
+#inp{
+    border-width: 2px;
+    border-style: solid;
+    /*outline: 0;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+.form-group{
+    
+}
+
+.btn-info{
+  background-color: #232F5A;
+  color: #fff;
+}
+
+/** LOGIN ***/
+body {
+    background-color: /*#00faf2*/ /*#009bcb*/ #ebedef !important; 
+    font-family: "Lato", sans-serif;
+}
+.main-head{
+    height: 150px;
+    background: #FFF;
+}
+.sidenav {
+    height: 100%;
+    background-color: #232F5A;
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin: 0px 0px; /*POSIÇÃO DO BLOCO DA MARCA*/
+}
+.main {
+    padding: 0px 20px;
+    margin: 0px 150px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+    .register-form{
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .login-form{
+        margin-top: 80%;
+    }
+    .register-form{
+        margin-top: 20%;
+    }
+}
+.logo{
+    margin-left: 10%;
+}
+.login-main-text{
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 60px;
+    color: #fff;
+}
+.login-main-text h2{
+    font-weight: 400;
+}
+.btn-black{
+    background-color: #232F5A;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px !important;
+}
+
+h1 {
+    font-family: ;
+    margin-left: -20px;
+    color: orange !important;
+}
+
+h6 {
+    margin-left: 10px;
+    color: !important;
+}
+
+.form-control2{
+    float: ;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    border: 1px solid #232F5A;
+}
+.form-control3{
+    float: ;
+    width: 80%;
+    height: 100%;
+    padding: 7px;
+    border-right: transparent !important;
+    border: 1px solid #232F5A;
+}
+
+.form-password{
+
+}
+    .form-password input[type = 'password']{
+        float: ;
+        width: 80%;
+        height: 100%;
+        padding: 7px;
+        border-right: transparent !important;
+        border: 1px solid #232F5A;
+    }
+    .form-password button{
+        float: right;
+        width: 20%;
+        height: 100%;
+        padding: 6px;
+        border-left : transparent !important;
+        border: 1px solid #232F5A;
+        margin-top: 32px;
+        background-color: white;
+    }
+
+/*.form-group .glyphicon-eye-open {
+  pointer-events: auto;
+  /*padding-top: 315px;
+  padding-right: 100px;
+  color: #232F5A;
+  margin-left: 200px;
+  margin-bottom: 70px;
+
+}
+.form-group .glyphicon-eye-open:hover {
+  cursor: pointer;
+}*/
+
+/*#pass {
+  width: 150px;
+  padding-right: 20px;
+}
+
+.olho {
+  cursor: pointer;
+  left: 160px;
+  position: absolute;
+  width: 20px;
+  padding-left: 40px;
+}*/
+
+ #global-login-form {
+  width: 50%;
+  margin: 0 auto;
+}
+#global-login-form #login-form ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+#global-login-form #login-form ul li {
+  position: relative;
+  margin-bottom: 1em;
+}
+#global-login-form #login-form ul li button#show_password {
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+}
+#global-login-form #login-form ul li button[type=submit] {
+  margin-top: 1em;
+}
